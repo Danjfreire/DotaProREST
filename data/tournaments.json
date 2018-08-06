@@ -1,0 +1,170 @@
+[
+    {
+        "leagueid": 9943,
+        "tier": "Major",
+        "name": "China Dota2 Super Major",
+        "region":"China",
+        "location":"Shangai",
+        "startDate":"2018-06-02",
+        "endDate":"2018-06-10",
+        "prizePool":"1,500,000",
+        "points":"2250",
+        "logo":"logo",
+        "standings":[
+            {
+                "team":"Team Liquid",
+                "t_logo":"logo",
+                "place":"1st",
+                "prize":"555,000",
+                "points":"1,125"
+            },
+            {
+                "team":"Virtus.pro",
+                "t_logo":"lgo",
+                "place":"2nd",
+                "prize":"225,000",
+                "points":"675"
+            },
+            {
+                "team":"PSG.LGD",
+                "t_logo":"LOGO",
+                "place":"3rd",
+                "prize":"150,000",
+                "points":"337"
+            },
+            {
+                "team":"Team Secret",
+                "t_logo":"logo",
+                "place":"4th",
+                "prize":"120,000",
+                "points":"112"
+            }
+        ]
+    },
+    {
+        "leagueid": 9643,
+        "tier": "Major",
+        "name": "Dota 2 Asia Championships 2018",
+        "region":"China",
+        "location":"Shangai",
+        "start_date":"2018-03-29",
+        "end_date":"2018-04-07",
+        "prize_pool":"1,000,000",
+        "points":"1500",
+        "logo":"logo",
+        "standings":[
+            {
+                "team":"Mineski",
+                "t_logo":"logo",
+                "place":"1st",
+                "prize":"370,000",
+                "points":"750"
+            },
+            {
+                "team":"PSG.LGD",
+                "t_logo":"lgo",
+                "place":"2nd",
+                "prize":"135,000",
+                "points":"450"
+            },
+            {
+                "team":"Virtus.pro",
+                "t_logo":"LOGO",
+                "place":"3rd",
+                "prize":"105,000",
+                "points":"225"
+            },
+            {
+                "team":"TNC Predator",
+                "t_logo":"logo",
+                "place":"4th",
+                "prize":"85,000",
+                "points":"75"
+            }
+        ]
+    },
+    {
+        "leagueid": 9601,
+        "tier": "premium",
+        "name": "EPICENTER XL",
+        "region":"Russia",
+        "location":"Moscow",
+        "start_date":"2018-04-27",
+        "end_date":"2018-05-06",
+        "prize_pool":"1,000,000",
+        "points":"1500",
+        "logo":"logo",
+        "standings":[
+            {
+                "team":"PSG.LGD",
+                "t_logo":"lgo",
+                "place":"1st",
+                "prize":"500,000",
+                "points":"750"
+            },
+            {
+                "team":"Team Liquid",
+                "t_logo":"logo",
+                "place":"2nd",
+                "prize":"200,000",
+                "points":"450"
+            },
+            {
+                "team":"FlyToMoon",
+                "t_logo":"LOGO",
+                "place":"3rd",
+                "prize":"110,000",
+                "points":"225"
+            },
+            {
+                "team":"Virtus.pro",
+                "t_logo":"logo",
+                "place":"4th",
+                "prize":"70,000",
+                "points":"75"
+            }
+        ]
+    },
+    {
+        "leagueid": 9862,
+        "tier": "premium",
+        "name": "MDL Changsha",
+        "region":"China",
+        "location":"Changsha",
+        "start_date":"2018-05-14",
+        "end_date":"2018-05-20",
+        "prize_pool":"1,000,000",
+        "points":"1500",
+        "logo":"logo",
+        "standings":[
+            {
+                "team":"PSG.LGD",
+                "t_logo":"lgo",
+                "place":"1st",
+                "prize":"135,000",
+                "points":"450"
+            },
+            {
+                "team":"VGJ.Storm",
+                "t_logo":"logo",
+                "place":"2nd",
+                "prize":"200,000",
+                "points":"450"
+            },
+            {
+                "team":"Vici Gaming",
+                "t_logo":"LOGO",
+                "place":"3rd",
+                "prize":"130,000",
+                "points":"225"
+            },
+            {
+                "team":"Newbee",
+                "t_logo":"logo",
+                "place":"4th",
+                "prize":"85,000",
+                "points":"75"
+            }
+        ]
+    }
+]
