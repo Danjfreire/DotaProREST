@@ -13,7 +13,7 @@ public class Player {
 	private Long accountid;
 	private Long steamid;
 	private String name;
-	private Long teamid;
+	private Long opendotateamid;
 	private String last_match;
 	
 	public Long getAccount() {
@@ -40,12 +40,20 @@ public class Player {
 		this.name = name;
 	}
 
-	public Long getTeamid() {
-		return teamid;
+	public Long getAccountid() {
+		return accountid;
 	}
 
-	public void setTeamid(Long team_id) {
-		this.teamid = team_id;
+	public void setAccountid(Long accountid) {
+		this.accountid = accountid;
+	}
+
+	public Long getOpendotateamid() {
+		return opendotateamid;
+	}
+
+	public void setOpendotateamid(Long opendotateamid) {
+		this.opendotateamid = opendotateamid;
 	}
 
 	public String getLast_match() {

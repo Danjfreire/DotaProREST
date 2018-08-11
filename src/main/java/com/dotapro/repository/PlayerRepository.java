@@ -9,5 +9,5 @@ import com.dotapro.model.Player;
 public interface PlayerRepository extends JpaRepository<Player, Long>{
 	
 	public Player findPlayerByAccountid(Long id);
-	public List<Player> findPlayerByTeamid(Long id);
+	public List<Player> findPlayerByopendotateamid(Long id);
 }

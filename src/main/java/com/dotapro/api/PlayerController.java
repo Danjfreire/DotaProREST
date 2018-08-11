@@ -27,6 +27,6 @@ public class PlayerController {
 	//Retorna a lista de players de um time específico
 	@GetMapping(path="/team/{id}")
 	public List<Player> teamPlayers(@PathVariable("id") Long id){
-		return playerRepository.findPlayerByTeamid(id);
+		return playerRepository.findPlayerByopendotateamid(id);
 	}
 }

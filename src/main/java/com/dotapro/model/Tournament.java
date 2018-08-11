@@ -5,13 +5,17 @@ import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 @Entity
-public  class Tournament {
+public class Tournament {
 
 	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int id;
 	private int leagueid;
 	private String tier;
 	private String name;
@@ -22,15 +26,22 @@ public  class Tournament {
 	private String prizePool;
 	private String points;
 	private String logo;
-	
 
-	@OneToMany(cascade = CascadeType.ALL, mappedBy="tournament",targetEntity=TournamentStandings.class,fetch = FetchType.LAZY)
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "tournament", targetEntity = TournamentStandings.class, fetch = FetchType.LAZY)
 	private List<TournamentStandings> standings;
-	
+
 	public List<TournamentStandings> getStandings() {
 		return standings;
 	}
-	
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public void setStandings(List<TournamentStandings> standings) {
 		this.standings = standings;
 	}
@@ -115,8 +126,4 @@ public  class Tournament {
 		this.logo = logo;
 	}
 
-	
-	
-	
 }
-

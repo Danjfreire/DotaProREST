@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -27,6 +28,7 @@ public class TournamentController {
 	private TeamRepository teamRepository;
 	
 	//Retorna uma lista com todos os campeonatos
+	@CrossOrigin
 	@GetMapping
 	public List<Tournament> tournamentList(){
 		return tournamentRepository.findAll();
@@ -38,7 +40,7 @@ public class TournamentController {
 		List<TournamentStandings> standings = tournament.getStandings();
 		for(TournamentStandings standing : standings) {
 			standing.setTournament(tournament);
-			Team team = teamRepository.findTeamById(standing.getTeam_id());
+			Team team = teamRepository.findTeamByOpendotaID(standing.getTeam_id());
 			standing.setTeam(team);
 		}
 		return tournamentRepository.save(tournament);

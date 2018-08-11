@@ -3,6 +3,7 @@ package com.dotapro.model;
 import java.util.List;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -15,15 +16,16 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Entity
 public class Team {
 
-	@Id
+	@Id	
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	private Long opendotaID;
 	private Long wins;
 	private Long losses;
 	private String name;
 	private String tag;
 	private String logo;
 
-	
 //	@OneToMany(fetch = FetchType.LAZY, mappedBy="team")
 //	private List<Player> players;
 
@@ -37,6 +39,14 @@ public class Team {
 
 	public void setId(Long id) {
 		this.id = id;
+	}
+
+	public Long getOpendotaID() {
+		return opendotaID;
+	}
+
+	public void setOpendotaID(Long opendotaID) {
+		this.opendotaID = opendotaID;
 	}
 
 	public Long getWins() {
