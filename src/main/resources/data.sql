@@ -8004,3 +8004,6 @@ INSERT INTO player (accountid,steamid,name,opendotateamid,last_match) VALUES(449
 INSERT INTO player (accountid,steamid,name,opendotateamid,last_match) VALUES(462416430,76561198422682158,'helikeseat',5055408,'2018-08-07T19:46:11.000Z');
 INSERT INTO player (accountid,steamid,name,opendotateamid,last_match) VALUES(848026377,76561198808292105,'Humble',0,'2018-06-26T12:42:14.000Z');
 INSERT INTO player (accountid,steamid,name,opendotateamid,last_match) VALUES(851614480,null,'',0,'null');
+
+
+INSERT INTO tournament_match (matchid,leagueid) VALUES(3943981461 ,9943);
