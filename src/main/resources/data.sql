@@ -8007,3 +8007,7 @@ INSERT INTO player (accountid,steamid,name,opendotateamid,last_match) VALUES(851
 
 
 INSERT INTO tournament_match (matchid,leagueid) VALUES(3943981461 ,9943);
+INSERT INTO tournament_match (matchid,leagueid) VALUES(3943893584 ,9943);
+INSERT INTO tournament_match (matchid,leagueid) VALUES(3943790375 ,9943);
+INSERT INTO tournament_match (matchid,leagueid) VALUES(3943673479 ,9943);
+INSERT INTO tournament_match (matchid,leagueid) VALUES(3943547236 ,9943);

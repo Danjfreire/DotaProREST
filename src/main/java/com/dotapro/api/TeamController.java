@@ -24,4 +24,5 @@ public class TeamController {
 	public Team teamByid(@PathVariable("id") Long id){
 		return teamRepository.findTeamById(id);
 	}
+	
 }
